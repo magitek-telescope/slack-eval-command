@@ -26,7 +26,8 @@ ${codeBlock}`,
   } catch (e) {
     res.json({
       response_type: 'in_channel',
-      text: 'オイオイオイ死んだわアイツ'
+      text: `オイオイオイ死んだわアイツ
+ほう \`${e}\` ですか…たいしたものですね`
     })
   }
 })
