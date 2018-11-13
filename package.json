@@ -1,0 +1,39 @@
+{
+  "//1": "describes your app and its dependencies",
+  "//2": "https://docs.npmjs.com/files/package.json",
+  "//3": "updating this file will download and update your packages",
+  "name": "slack-eval-command",
+  "version": "0.0.1",
+  "description": "A simple Node app built on Express, instantly up and running.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "body-parser": "1.18.2",
+    "express": "4.16.3",
+    "superb": "3.0.0"
+  },
+  "engines": {
+    "node": "8.x"
+  },
+  "homepage": "https://cotton-veil.glitch.me",
+  "repository": {
+    "url": "https://github.com/potato4d/slack-eval-command"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "express",
+    "slack",
+    "slash-command"
+  ],
+  "devDependencies": {
+    "prettier": "^1.15.2"
+  },
+  "prettier": {
+    "semi": false,
+    "singleQuote": true
+  }
+}
